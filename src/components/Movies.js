@@ -10,7 +10,7 @@ const Movies = () => {
           {movies.map((movie) => (
             <div>
               <p>{movie.title}</p>
-              <p>{movies.time}</p>
+              <p>{movie.time}</p>
             </div>)
           )}
         </div>
