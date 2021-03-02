@@ -7,7 +7,10 @@ const Movies = () => {
         {/*{code here}*/}
         <h1>Movies Page</h1>
         <div>
-        
+          {movies.map((movie) =>
+            <p>{movie.title}</p>
+            <p>{movies.time}</p>
+          )}
         </div>
     </div>
   );
