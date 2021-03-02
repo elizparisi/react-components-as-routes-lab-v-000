@@ -9,7 +9,10 @@ const Directors = () => {
       
       {movies.directors.map((director) => (
         <div>
-          
+          <p>{director.name}</p>
+          <ul>
+            
+          </ul>
         </div>)
     </div>
   );
