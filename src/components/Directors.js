@@ -17,6 +17,7 @@ const Directors = () => {
               )}
             </ul>
         </div>)
+      )}
     </div>
   );
 }
