@@ -6,7 +6,7 @@ const Movies = () => {
     <div>
         {/*{code here}*/}
         <h1>Movies Page</h1>
-        <div>
+        
           {movies.map((movie) => (
             <div>
               <h2>{movie.title}</h2>
@@ -19,7 +19,6 @@ const Movies = () => {
                 </ul>
             </div>)
           )}
-        </div>
     </div>
   );
 };
