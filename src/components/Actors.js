@@ -9,13 +9,13 @@ const Actors = () => {
       
       {actors.map((actor) => (
         <div>
-        <h1>{actor.name}</h1>
-        <p>Movies:</p>
-          <ul>
-            {actors.movies.map((movie) =>
+          <p{actor.name}</p>
+          <p>Movies:</p>
+            <ul>
+              {actors.movies.map((movie) =>
               <li>{movie}</li>
-            )}
-          </ul>
+              )}
+            </ul>
         </div>)
         )
       }
