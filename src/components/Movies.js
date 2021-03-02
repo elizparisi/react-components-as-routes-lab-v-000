@@ -15,7 +15,8 @@ const Movies = () => {
                 <ul>
                   {movie.genres.map((genre) =>
                     <li>{genre}</li>
-                  )
+                  )}
+                </ul>
             </div>)
           )}
         </div>
